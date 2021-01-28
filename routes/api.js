@@ -27,10 +27,8 @@ router.post('/notes', (req, res) => {
     res.send("Updated the db file!")
 })
 
-module.exports = router;
+router.delete('/notes', (req, res) => {
+    
+})
 
-// <form>
-//     <input name="username" type="text"></input>
-//     <input name="email" type="text"></input>
-//     <button type="submit">Submit</button>
-// </form>
+module.exports = router;
